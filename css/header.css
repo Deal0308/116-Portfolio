@@ -35,3 +35,17 @@ nav {
     border-bottom: 2px solid var(--primary-color);
     transition: all 0.3s ease 0s;
 }
+
+/* Hamburger button */
+
+.nav-btn span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: var(--neutral-color);
+    margin: 6px auto;
+}
+
+#nav-check, .nav-btn{
+    display: none;
+}
