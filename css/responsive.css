@@ -111,3 +111,11 @@ Desktop or Big Screen
         width: 100%; /* Full width on smaller screens */
     }
 }
+
+footer {
+    flex-direction: column;
+    
+}
+footer nav {
+height: fit-content;
+}
